@@ -292,25 +292,61 @@
                     </div>
                 </div>
             </div>
-
+            <!-- total calculation-->
 
             <div>
                 <div class="card w-72 bg-primary-4 m-auto rounded-lg lg:mt-32">
                     <div class="card-body">
-                      <h3 class="card-title text-2xl font-medium text-primary-3">Have coupon?</h3>
-                      <div class="form-control ">
-                        <div class="input-group">
-                          <input type="text" placeholder="Coupon code" class="input input-bordered w-40 rounded-lg text-base font-normal" />
-                          <button class=" w-44 bg-primary-2 text-primary-4 text-base font-semibold">Apply</button>
+                        <h3 class="card-title text-2xl font-medium text-primary-3">Have coupon?</h3>
+                        <div class="form-control ">
+                            <div class="input-group">
+                                <input type="text" placeholder="Coupon code"
+                                    class="input input-bordered w-40 rounded-lg text-base font-normal" />
+                                <button class=" w-44 bg-primary-2 text-primary-4 text-base font-semibold">Apply</button>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
+
+
+                <div class="card w-72 bg-primary-4 m-auto mt-8 rounded-lg lg:mt-6">
+                    <div class="card-body">
+                        <h2 class="card-title"></h2>
+                        <hr>
+                        <br>
+                        <h3 class="text-xl font-medium text-primary-3">Total price: <span
+                                class="text-p-color">00.00TK</span></h3>
+                        <h3 class="text-xl font-medium text-primary-3">Discount : <span
+                                class="text-p-color">00.00TK</span></h3>
+
+                        <h3 class="text-xl font-medium text-primary-3"> Total: <span class="text-p-color">00.00TK</span>
+                        </h3>
+                        <br>
+                        <hr>
+                        <br>
+                    </div>
+                </div>
+                <div class="card-actions justify-center  ">
+                    <button class=" w-56 h-12 rounded-lg font-semibold text-lg text-primary-4 bg-primary-2  relative -top-6" onclick="my_modal_1.showModal()">Make Purchase</button>
+                    <dialog id="my_modal_1" class="modal ">
+                        <form method="dialog" class="modal-box ">
+                          <div class="flex justify-center mt-8"> <img class="" src="./images/congo.png" alt=""></div>
+                          <h1 class="text-4xl font-bold text-primary-3 text-center mt-10">Congratulations</h1>
+                          <p class="text-xl font-normal text-p-color text-center mt-6">Your Purchase the product
+                          </p>
+                          
+                          <div class="modal-action  justify-center items-center mt-12 mb-8">
+                            <button class="w-44 h-12 rounded-lg bg-primary-2 text-primary-4 text-xl font-semibold ">Go Home</button>
+                          </div>
+                        </form>
+                      </dialog>
+                </div>
+
+
 
 
 
             </div>
-
 
 
 
